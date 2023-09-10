@@ -5,10 +5,10 @@ async function main() {
     console.log("Deploying contract with the account:", deployer.address);
     // console.log("Account balance:", (await deployer.getBalance()).toString());
     
-    const GreenTextNFT = await ethers.getContractFactory("GreenTextNFT");
-    const greenTextNFT = await GreenTextNFT.deploy(adminAccount);
-    await greenTextNFT.waitForDeployment();
-    const address = await greenTextNFT.getAddress();
+    const NFTStake = await ethers.getContractFactory("NFTStake");
+    const nftStake = await NFTStake.deploy(adminAccount);
+    await nftStake.waitForDeployment();
+    const address = await nftStake.getAddress();
     console.log("Deployed contract at ", address);
 }
 

@@ -12,3 +12,7 @@ npx hardhat run scripts/deploy.js
 npx hardhat verify --contract "nftstake/NFTStake.sol:NFTStake" "deployed_contract_address" "addminaccount"
 ```
 Deployed contract address:
+
+# Sample frontend project
+
+Start the frontend project.
