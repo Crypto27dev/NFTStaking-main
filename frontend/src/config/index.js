@@ -28,13 +28,13 @@ var config = {
     NFTStakeAbi: NFTStakeAbi,
     ERC721Abi: ERC721Abi,
 
-    //mainNetUrl: "https://polygon.llamarpc.com",                   // polygon RPC
-    mainNetUrl: "https://data-seed-prebsc-2-s2.binance.org:8545",   // bsc testnet RPC
+    mainNetUrl: "https://polygon.llamarpc.com",                   // polygon RPC
+    // mainNetUrl: "https://data-seed-prebsc-2-s2.binance.org:8545",   // bsc testnet RPC
 
     chainId: '0x89',        // polygon : '0x89'   
     //chainId: '0x61',      // bsc testnet : '0x97'   
 
-    NFTStakeAddress: "0x395805794241d667F744FE51dD8aBEf165Ff3670",  // NFT staking contract address
+    NFTStakeAddress: "0xd65a1162bB413A067a391Cefbf692BD0654191A1",  // NFT staking contract address
     ERC721Address: "0x5D57780A0794fA9F447C3ED238069ECD68100Cbb",    // ERC721 token contract address
 
     NFT_SERVER_API_URL: "https://api.nftport.xyz/v0/accounts",
